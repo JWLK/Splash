@@ -13,6 +13,13 @@
 		E273DD43283AA341003879EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E273DD41283AA341003879EC /* Main.storyboard */; };
 		E273DD45283AA343003879EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E273DD44283AA343003879EC /* Assets.xcassets */; };
 		E273DD48283AA343003879EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E273DD46283AA343003879EC /* LaunchScreen.storyboard */; };
+		E273DD55283AA36C003879EC /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E273DD50283AA36C003879EC /* Comfortaa-SemiBold.ttf */; };
+		E273DD56283AA36C003879EC /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E273DD51283AA36C003879EC /* Comfortaa-Light.ttf */; };
+		E273DD57283AA36C003879EC /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E273DD52283AA36C003879EC /* Comfortaa-Medium.ttf */; };
+		E273DD58283AA36C003879EC /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E273DD53283AA36C003879EC /* Comfortaa-Bold.ttf */; };
+		E273DD59283AA36C003879EC /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E273DD54283AA36C003879EC /* Comfortaa-Regular.ttf */; };
+		E273DD5B283AA41E003879EC /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E273DD5A283AA41E003879EC /* SplashScreen.storyboard */; };
+		E273DD5D283AA4DA003879EC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273DD5C283AA4DA003879EC /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		E273DD44283AA343003879EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E273DD47283AA343003879EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E273DD49283AA343003879EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E273DD50283AA36C003879EC /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
+		E273DD51283AA36C003879EC /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		E273DD52283AA36C003879EC /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
+		E273DD53283AA36C003879EC /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		E273DD54283AA36C003879EC /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		E273DD5A283AA41E003879EC /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		E273DD5C283AA4DA003879EC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,30 @@
 		E273DD3A283AA341003879EC /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				E273DD5C283AA4DA003879EC /* SplashViewController.swift */,
 				E273DD3B283AA341003879EC /* AppDelegate.swift */,
 				E273DD3D283AA341003879EC /* SceneDelegate.swift */,
 				E273DD3F283AA341003879EC /* ViewController.swift */,
 				E273DD41283AA341003879EC /* Main.storyboard */,
-				E273DD44283AA343003879EC /* Assets.xcassets */,
+				E273DD5A283AA41E003879EC /* SplashScreen.storyboard */,
 				E273DD46283AA343003879EC /* LaunchScreen.storyboard */,
+				E273DD4F283AA350003879EC /* Fonts */,
+				E273DD44283AA343003879EC /* Assets.xcassets */,
 				E273DD49283AA343003879EC /* Info.plist */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		E273DD4F283AA350003879EC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E273DD53283AA36C003879EC /* Comfortaa-Bold.ttf */,
+				E273DD51283AA36C003879EC /* Comfortaa-Light.ttf */,
+				E273DD52283AA36C003879EC /* Comfortaa-Medium.ttf */,
+				E273DD54283AA36C003879EC /* Comfortaa-Regular.ttf */,
+				E273DD50283AA36C003879EC /* Comfortaa-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +155,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E273DD48283AA343003879EC /* LaunchScreen.storyboard in Resources */,
+				E273DD5B283AA41E003879EC /* SplashScreen.storyboard in Resources */,
 				E273DD45283AA343003879EC /* Assets.xcassets in Resources */,
+				E273DD55283AA36C003879EC /* Comfortaa-SemiBold.ttf in Resources */,
 				E273DD43283AA341003879EC /* Main.storyboard in Resources */,
+				E273DD59283AA36C003879EC /* Comfortaa-Regular.ttf in Resources */,
+				E273DD57283AA36C003879EC /* Comfortaa-Medium.ttf in Resources */,
+				E273DD56283AA36C003879EC /* Comfortaa-Light.ttf in Resources */,
+				E273DD58283AA36C003879EC /* Comfortaa-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +176,7 @@
 				E273DD40283AA341003879EC /* ViewController.swift in Sources */,
 				E273DD3C283AA341003879EC /* AppDelegate.swift in Sources */,
 				E273DD3E283AA341003879EC /* SceneDelegate.swift in Sources */,
+				E273DD5D283AA4DA003879EC /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
